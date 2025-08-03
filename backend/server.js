@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 5000;
 // Security middleware
 app.use(helmet());
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'https://wellness-rp8ue3dih-rouls-projects.vercel.app/',
+  origin: process.env.FRONTEND_URL || 'wellness-kgwyywo4d-rouls-projects.vercel.app',
   credentials: true
 }));
 
